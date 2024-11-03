@@ -19,7 +19,7 @@ The dataset used for this project contains information about customer demographi
 - Loyalty Level
 - Satisfaction Score (Target Variable)
 
-**Source:** [Mention the source of your dataset, e.g., Kaggle, UCI Machine Learning Repository]
+**Source:** Kaggle: https://www.kaggle.com/datasets/jahnavipaliwal/customer-feedback-and-satisfaction
 
 ## Methodology
 
@@ -49,28 +49,43 @@ The following steps were followed in this project:
 
 ## Results
 
-[Summarize the results of your model evaluation, including the best-performing model and its achieved metrics. You can also include tables or charts to visualize the results.]
+After evaluating the four models (Linear Regression, Decision Tree, Random Forest, and Support Vector Regression), the Random Forest Regression model achieved the best performance with the following metrics:
+
+Metric	Value
+Mean Squared Error (MSE)	
+Linear Regression: 84.50584134930574
+Decision Tree Regression: 126.68985693848354
+Random Forest Regression: 64.5133989606971
+Support Vector Regression: 303.93534853610805
+
+r2_score: 
+Linear Regression 0.7030262672123858
+Decision Tree Regression 0.55478154976491
+Random Forest Regression 0.7732844901811962
+Support Vector Regression -0.06810148907669666	
+
 
 ## Conclusion
-
-[Provide a brief conclusion summarizing the findings of your project and any insights gained. You can also discuss limitations and potential future improvements.]
+Conclusion
+This project demonstrates the effectiveness of machine learning, specifically Random Forest Regression, in predicting customer satisfaction scores. The model achieved a high R-score value, indicating a good fit to the data. The insights gained from this project can help businesses identify key factors influencing customer satisfaction and take proactive measures to improve their products and services.
 
 ## Usage
 
-[Provide instructions on how to use your trained model to make predictions on new data. You can include code snippets or examples.]
+This project requires the following libraries:
 
-## Dependencies
-
-[List the libraries and packages required to run your code. You can use a requirements.txt file or simply list them in the README.]
+Python 3.x
+pandas
+scikit-learn
+numpy
+matplotlib
+seaborn
+joblib (for saving and loading the model)
 
 ## Contributing
 
-[If you want others to contribute to your project, provide guidelines on how to do so.]
-
-## License
-
-[Specify the license under which your project is distributed.]
+Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## Author
 
-[Your Name]
+Muskan Asudani
+Aditya Shukla 
